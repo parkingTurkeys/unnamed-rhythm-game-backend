@@ -1,0 +1,11 @@
+CREATE DATABASE game;
+USE game;
+CREATE TABLE users (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(150) NOT NULL,
+    bio VARCHAR(1000),
+    email VARCHAR(256),
+    datejoined DATE,
+    password VARCHAR(255),
+    PRIMARY KEY (id)
+);
